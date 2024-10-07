@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "shared",
-            url: "https://github.com/vicaloy/acara-shared-ios/releases/download/v0.0.1/shared.xcframework.zip", // URL directa a tu archivo .zip en GitHub
+            url: "https://github.com/vicaloy/acara-shared-ios/releases/download/v0.0.11/shared.xcframework.zip", // URL directa a tu archivo .zip en GitHub
             checksum: "1050235aa8be11c22af25f70df6bc0927e28187664f917b9425f5b4f5ae114b3"
         )
     ]
