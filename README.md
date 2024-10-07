@@ -1,0 +1,8 @@
+- Run ./gradlew build in Acara-shared
+- Run ./gradlew :shared:assembleSharedReleaseXCFramework --stacktrace in Acara-shared
+- Go to /acara/acara-shared/shared/build/xcframeworks/release and compress as zip the shared.xcframework folder
+- Run swift package compute-checksum shared.xcframework.zip in the acara/acara-shared/shared/build/xcframeworks/release directory
+- Update the checksum and the tag in the Package.swift 
+- Push new tag and publish the release uploading the shared.xcframework.zip
+-- git tag v0.0.10 
+-- git push origin v0.0.10
